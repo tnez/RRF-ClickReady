@@ -10,6 +10,10 @@
 	<string>RRFClickReady</string>
 	<key>TKComponentBundleIdentifier</key>
 	<string>com.rrf.component.ClickReady</string>
+	<key>TKComponentRequireTiming</key>
+	<false/>
+	<key>TKComponentRequireLogging</key>
+	<false/>
 	<key>TKComponentOptions</key>
 	<array>
 		<dict>
