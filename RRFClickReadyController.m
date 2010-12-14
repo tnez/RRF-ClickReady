@@ -167,6 +167,14 @@
     [self setErrorLog:[[errorLog stringByAppendingString:theError] stringByAppendingString:@"\n"]];
 }
 
+/**
+ The subject has clicked and is ready to proceed
+ - all we need to do at this point is exit this component
+ */
+- (IBAction)subjectDidClick: (id)sender {
+  // simply inform our delegate that we are done
+  [delegate componentDidFinish:self];
+}
         
 
 #pragma mark Preference Keys

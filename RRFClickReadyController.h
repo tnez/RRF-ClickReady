@@ -138,6 +138,12 @@
  */
 - (void)registerError: (NSString *)theError;
 
+/**
+ The subject has clicked and is ready to proceed
+ - all we need to do at this point is exit this component
+ */
+- (IBAction)subjectDidClick: (id)sender;
+
 
 
 
